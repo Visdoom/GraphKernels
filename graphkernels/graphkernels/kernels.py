@@ -11,9 +11,8 @@ import numpy as np
 import GKextCPy as gkCpy
 from igraph import Graph
 
-from utilities import GetGKInput, GetAdjMatList
+from .utilities import GetGKInput, GetAdjMatList
 
-import IPython as ip
 
 """
 Alla kernels calculate
