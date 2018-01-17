@@ -26,7 +26,7 @@ def GetGraphInfo(g):
 		E[i,:] = g.es[i].tuple
 	## there are multiple edge attributes
   	if len(g.es.attributes()) > 1:
-  		print "There are multiple edge attributes! The first attribute %s is used" % g.es.attributes()[0]
+  		print("There are multiple edge attributes! The first attribute %s is used" % g.es.attributes()[0])
 
   	## an edge attribute is missing
  	if len(g.es.attributes()) == 0:
