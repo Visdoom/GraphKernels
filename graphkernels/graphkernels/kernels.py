@@ -174,13 +174,13 @@ def CalculateGraphletKernel(G, par = 4):
 	if par < 3:
 
 		par = 3
-		print "Warning: k=3 is used (k = 3 or 4 is supported)"
+		print("Warning: k=3 is used (k = 3 or 4 is supported)")
 	
 	# If k>4 then assign k=4
 	if par > 4:
 		
 		par = 4
-		print "Warning: k=4 is used (k = 3 or 4 is supported)"
+		print("Warning: k=4 is used (k = 3 or 4 is supported)")
 
 	# Extract graph info
 	adj_mat, adj_list = GetAdjMatList(G)
@@ -198,13 +198,13 @@ def CalculateConnectedGraphletKernel(G, par = 4):
 	if par < 3:
 
 		par = 3
-		print "Warning: k=3 is used (k = 3, 4 or 5 is supported)"
+		print("Warning: k=3 is used (k = 3, 4 or 5 is supported)")
 	
 	# If k>5 then assign k=5
 	if par > 5:
 		
 		par = 5
-		print "Warning: k=5 is used (k = 3, 4 or 5 is supported)"
+		print("Warning: k=5 is used (k = 3, 4 or 5 is supported)")
 
 	# Extract graph info
 	adj_mat, adj_list = GetAdjMatList(G)
